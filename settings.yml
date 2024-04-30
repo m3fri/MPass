@@ -1,0 +1,58 @@
+#
+#
+#    _               _      _        _         _
+#  _/\\___ _____  __/\\  __/\\___  _/\\___   _/\\_
+#  (_      v    ))/    \\(_  ____))(_   _  ))(____))
+#  /  :   <\   \\\_/':// / ||__    /  |))//  /  \\
+#  /:. |   //   /// \.:\\/:. ._))  /:.    \\ /:.  \\
+# \___|  //\  // \__  //\  _))    \___|  // \__  //
+# \//  \//     \//  \//           \//     \//
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# @developer m3fri
+# @link https://vk.com/m3fri .
+#
+#
+
+# Here is the last message that will be displayed when running the /pass command
+# Тут редактировать сообщение которое будет показываться при выполнение команды /pass
+pass-usage: "Использование: /pass <имя>"
+
+# Here you can edit the message that will be shown when a pass is issued to the player
+# Тут редактировать сообщение которое будет показываться при выдачи проходке игроку
+pass-done: "Проходка выдана игроку {player}"
+
+# Here you can edit the message that will be shown if the player does not have permission to execute the /pass command
+# Тут редактировать сообщение которое будет показываться если у игрока нет прав на выполнение команды /pass
+pass-no: "У тебя нет прав на использование этой команды"
+
+# Here you can edit the permission (the rights to execute a team of players, if suddenly he does not have operator rights)
+# Тут редактировать пермишен (права на выполнение команды игроков, если вдруг у него нет прав оператора)
+pass-perm: "pass.give"
+
+# Here indicate the deviceOS that you want to block from logging in
+# Тут указывать deviceOS которые вы хотите запретить для входа
+disallowed-devices: "7"
+
+# List of deviceOS and their decryption
+# Список deviceOS и их расшифровка
+
+# 1	Google
+# 2	iOS
+# 3	OSX
+# 4	Amazon
+# 5	GearVR
+# 7	UWP
+# 8	Win32
+# 9	Dedicated
+# 10 tvOS_Deprecated
+# 11 Sony
+# 12 Nx
+# 13 Xbox
+# 14 WindowsPhone_Deprecated
+# 15 Linux
+# -1 Unknown

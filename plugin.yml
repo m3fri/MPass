@@ -1,0 +1,5 @@
+name: MPass
+api: [1.0.0]
+author: m3fri
+main: ru.m3fri.Loader
+version: 1.0
